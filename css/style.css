@@ -40,7 +40,7 @@ body {
 	font-family: arial;
 	font-size: 80%;
 	width: auto;
-	background: #eee; /*url('/images/minimal.jpg')*/
+	background: #eee;
 }
 main {
 	width: 960px;
@@ -79,15 +79,15 @@ nav, .tos {
 			}
 			nav ul li a {
 				padding: 20px;
-				background: #09c; /* orange #00ff8f */
+				background: #09c;
 				color: #fff;
 			}
 			nav ul li a:hover {
-				background: #19A3D1; /* #ffb424 */
+				background: #19A3D1;
 				box-shadow: 0 1px 1px #666;
 			}
 			nav ul li a:active {
-				background: #09c; /* orange #00ff8f */
+				background: #09c;
 			}
 
 	nav ul ul {
@@ -135,7 +135,7 @@ section {
 }
 .closetab {
 	padding: 10px;
-	background: #09c; /* orange #00ff8f */
+	background: #09c;
 	color: #fff;
 }
 .reglog {
@@ -180,7 +180,7 @@ section {
 	display: block;
 }
 .formbutton {
-	background-color: #09c; /* orange #00ff8f */
+	background-color: #09c;
 	color: white;
 	padding: 5px;
 	border: none;
