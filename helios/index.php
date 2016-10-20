@@ -17,49 +17,39 @@
 		<div id="page-wrapper">
 
 			<!-- Header -->
-				<div id="header">
+			<div id="header">
 
-					<!-- Inner -->
-						<div class="inner">
-							<header>
-								<h1><a href="index.html" id="logo">Amanda & Co</a></h1>
-								<hr />
-								<p>Het beste pannenkoekenrestaurant uit Amersfoort!</p>
-							</header>
-							<footer>
-								<a href="#banner" class="button circled scrolly">Bestel nu!</a>
-							</footer>
-						</div>
+				<!-- Inner -->
+					<div class="inner">
+						<header>
+							<h1><a href="index.html" id="logo">Amanda & Co</a></h1>
+							<hr />
+							<p>Het beste pannenkoekenrestaurant uit Amersfoort!</p>
+						</header>
+						<footer>
+							<a href="#banner" class="button circled scrolly">Bestel nu!</a>
+						</footer>
+					</div>
 
-					<!-- Nav -->
-						<nav id="nav">
-							<ul>
-								<li><a href="index.html">Home</a></li>
-								<li>
-									<a href="#">Contact</a>
-									<ul>
-										<li><a href="Wie zijn wij.html">Wie zijn wij?</a></li> <li>
-										<li><a href="Openingstijden.html">Openingstijden</a></li>
-										<li><a href="Contact.html">Contact</a></li> <li>
-									
-												</li>
-
-
-									</ul>
-								</li>
+				<!-- Nav -->
+					<nav id="nav">
+						<ul>
+							<li><a href="index.html">Home</a></li>
+							<li>
+								<a href="#">Contact</a>
+								<ul>
+									<li><a href="Wie zijn wij.html">Wie zijn wij?</a></li> <li>
+									<li><a href="Openingstijden.html">Openingstijden</a></li>
+									<li><a href="Contact.html">Contact</a></li>
+								</ul>
+							</li>
+							<li><a href="Menukaart.html">Menukaart</a></li>
+							<li><a href="Bestellen.html">Bestellen</a></li>
 								
-								<li><a href="Menukaart.html">Menukaart</a></li>
-								<li><a href="Bestellen.html">Bestellen</a></li>
-								
-							</ul>
-						</nav>
-
-				</div>
-
-			
-
-
-		<!-- Scripts -->
+						</ul>
+					</nav>
+			</div>
+<!-- Scripts -->
 			<script src="assets/js/jquery.min.js"></script>
 			<script src="assets/js/jquery.dropotron.min.js"></script>
 			<script src="assets/js/jquery.scrolly.min.js"></script>
