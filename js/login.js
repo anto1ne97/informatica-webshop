@@ -9,3 +9,5 @@ $(document).ready(function() {
 		}
 	});
 });
+
+// FIX: password === "text" when submitting while password is shown
