@@ -7,7 +7,7 @@ include_once '../themes/header.php';
 ?>
 	<main>
 		<nav class="tos">
-			<h1><a href="../public_html/index.php" class="logo">Antoine de Groot</a></h1>
+			<h1><a href="../public_html/index.php" class="logo">Amanda & Co. Pannenkoeken</a></h1>
 		</nav>
 
 		<article>

@@ -17,7 +17,7 @@ include_once '../themes/navbar.php';
 
 		<article>
 			<h3>
-				<a href="../public_html/music.php">muziek</a>
+				<a href="../public_html/#.php">Placeholder text</a>
 			</h3>
 		</article>
 
