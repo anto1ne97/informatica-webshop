@@ -1,14 +1,14 @@
 <?php
 session_start();
 
-$title = "500";
+$title = "401";
 include_once '../themes/header.php';
 include_once '../themes/navbar.php';
 include_once '../themes/usr.php';
 ?>
 		<article>
 			<header>
-				<h2>500</h2>
+				<h2>401</h2>
 			</header>
 			<p>
 				OH NO
