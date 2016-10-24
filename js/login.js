@@ -1,6 +1,6 @@
 $(document).ready(function() {
 	$('.password').click(function() {
-		var e=document.getElementsByName('password')[1]
+		var e=document.getElementsByName('passwordvisible')[1]
 		if(e.type=="password"){
 			e.type="text"
 		}
@@ -10,4 +10,4 @@ $(document).ready(function() {
 	});
 });
 
-// FIX: password === "text" when submitting while password is shown
+// TODO FIX: password === "text" when submitting while password is shown
