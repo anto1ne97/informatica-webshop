@@ -3,4 +3,6 @@
 **/usr.txt
 
 
-# ... #
+# Temporary files #
+###################
+**/css/normalize.css
