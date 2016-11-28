@@ -11,7 +11,8 @@ include_once '../themes/usr.php';
 				<h2>500</h2>
 			</header>
 			<p>
-				OH NO
+				:(<br>
+				So, um, something happened. Our psychic monkeys say it is an internal server error. Oopsiedaisies, that's our fault.
 			</p>
 		</article>
 

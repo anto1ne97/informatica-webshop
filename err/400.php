@@ -11,7 +11,7 @@ include_once '../themes/usr.php';
 				<h2>400</h2>
 			</header>
 			<p>
-				OH NO
+				Bad request!
 			</p>
 		</article>
 

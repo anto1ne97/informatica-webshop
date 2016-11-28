@@ -11,7 +11,7 @@ include_once '../themes/usr.php';
 				<h2>403</h2>
 			</header>
 			<p>
-				OH NO
+				Whoa! Stop right there. You are not allowed on this page. You will be removed.
 			</p>
 		</article>
 
