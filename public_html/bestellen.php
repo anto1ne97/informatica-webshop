@@ -1,183 +1,62 @@
-<!DOCTYPE HTML>
-<!--
-	Helios by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
--->
-<html>
-	<head>
-		<title>Amanda & Co</title>
-		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1" />
-		<!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
-		<link rel="stylesheet" href="assets/css/main.css" />
-		<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
-	</head>
-	<body class="homepage">
-		<div id="page-wrapper">
+<?php
+session_start();
 
-			<!-- Header -->
-				<div id="header">
+$title = "Amanda & Co. Pannenkoeken";
+include_once '../themes/header.php';
+include_once '../themes/navbar.php';
+?>
 
-					<!-- Inner -->
-						<div class="inner">
-							<header>
-								<h1><a href="index.html" id="logo">Amanda & Co</a></h1>
-								<hr />
-								<p>Het beste pannenkoekenrestaurant uit Amersfoort!</p>
-							</header>
-							
-								
-							
-						</div>
+<div id="header-featured">
+	<div id="banner">
+		<h2>Amanda & Co. Pannenkoeken</h2>
+		<p>Welkom bij Amanda & Co. Pannenkoeken Restaurant. Dit is een heel gezellig restaurant op planeet Aarde in een zonnesysteem in het sterrenstelsel genaamd Melkweg. Kan iemand hier een tekst bedenken?</p>
+		<a href="/webshop/public_html/bestellen.php" class="button">Bestel nu</a>
+	</div>
+</div>
 
-					<!-- Nav -->
-						<nav id="nav">
-							<ul>
-								<li><a href="index.html">Home</a></li>
-								<li>
-									<a href="#">Contact</a>
-									<ul>
-										<li><a href="Wie zijn wij.html">Wie zijn wij?</a></li> <li>
-										<li><a href="Openingstijden.html">Openingstijden</a></li>
-										<li><a href="Contact.html">Contact</a></li> <li>
-									
-												</li>
-
-
-									</ul>
-								</li>
-								
-								<li><a href="Menukaart.html">Menukaart</a></li>
-								<li><a href="Bestellen.html">Bestellen</a></li>
-								
-							</ul>
-						</nav>
-
+<div id="wrapper">
+	<div id="featured-wrapper">
+		<div id="featured" class="extra2 margin-btm container">
+			<div class="main-title">
+				<h2>Nulla eleifend purus</h2>
+				<span class="byline">Integer sit amet pede vel arcu aliquet pretium</span>
+			</div>	
+			<div class="ebox1"> <span class="fa fa-pagelines"></span>
+				<div class="title">
+					<h2>Fusce ultrices fringilla</h2>
+					<span class="byline">Integer sit amet pede vel arcu aliquet pretium</span>
 				</div>
+				<p>Consectetuer adipiscing elit. Nam pede erat, porta eu, lobortis eget, tempus et, tellus. Etiam neque. Vivamus consequat lorem at nisl. Nullam non wisi a sem semper eleifend. Donec mattis libero eget urna. Duis pretium velit ac mauris. Proin eu wisi suscipit nulla suscipit interdum. Aenean lectus lorem, imperdiet at, ultrices eget, ornare et, wisi. </p>
+				<a href="#" class="button">Etiam posuere</a>
+			</div>
+			<div class="ebox2"> <span class="fa fa-anchor"></span>
+				<div class="title">
+					<h2>Donec dictum metus</h2>
+					<span class="byline">Integer sit amet pede vel arcu aliquet pretium</span>
+				</div>
+				<p>Donec pulvinar ullamcorper metus. In eu odio at lectus pulvinar mollis. Vestibulum sem magna, elementum ut, vestibulum eu, facilisis quis, arcu. Mauris a dolor. Nulla facilisi. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Sed blandit. Phasellus pellentesque, ante nec iaculis dapibus, eros justo auctor lectus.</p>
+				<a href="#" class="button">Etiam posuere</a>
+			</div>
+		</div>
+		<div class="extra2 container">
+			<div class="ebox1"> <span class="fa fa-puzzle-piece"></span>
+				<div class="title">
+					<h2>Etiam rhoncus volutpat</h2>
+					<span class="byline">Integer sit amet pede vel arcu aliquet pretium</span>
+				</div>
+				<p>Integer nisl risus, sagittis convallis, rutrum id, elementum congue, nibh. Suspendisse dictum porta lectus. Donec placerat odio vel elit. Nullam ante orci, pellentesque eget, tempus quis, ultrices in, est. Sed vel tellus. Curabitur sem urna, consequat vel, suscipit in, mattis placerat, nulla. Sed ac leo. Pellentesque imperdiet. Pellentesque viverra vulputate enim.</p>
+				<a href="#" class="button">Etiam posuere</a>
+			</div>
+			<div class="ebox2"> <span class="fa fa-comments-o"></span>
+				<div class="title">
+					<h2>Mauris vulputate dolor</h2>
+					<span class="byline">Integer sit amet pede vel arcu aliquet pretium</span>
+				</div>
+				<p>Proin gravida orci porttitor enim accumsan lacinia. Donec condimentum, urna non molestie semper, ligula enim ornare nibh, quis laoreet eros quam eget ante. Aliquam libero. Vivamus nisl nibh, iaculis vitae, viverra sit amet, ullamcorper vitae, turpis. Aliquam erat volutpat. Vestibulum dui sem, pulvinar sed, imperdiet nec, iaculis nec, leo. </p>
+				<a href="#" class="button">Etiam posuere</a>
+			</div>
+		</div>
+	</div>
+</div>
 
-
-
-
-
-
-
-    <div class="section-home about-us fadeIn animated">
-
-        <div class="container">
-
-            <div class="row">
-
-                <div class="col-md-3 col-sm-6">
-                
-                  <div class="about-us-col">
-
-                        <div class="col-icon-wrapper">
-                          <img src="assets/images/icons/our-mission-icon.png" alt="">
-                        </div>
-                        <h3 class="col-title">our mission</h3>
-                        <div class="col-details">
-
-                          <p>Lorem ipsum dolor sit amet consect adipisscin elit proin vel lectus ut eta esami vera dolor sit amet consect</p>
-                          
-                        </div>
-                        <a href="#" class="btn btn-primary"> Read more </a>
-                    
-                  </div>
-                  
-                </div>
-
-
-                <div class="col-md-3 col-sm-6">
-                
-                  <div class="about-us-col">
-
-                        <div class="col-icon-wrapper">
-                          <img src="assets/images/icons/make-donation-icon.png" alt="">
-                        </div>
-                        <h3 class="col-title">Make donations</h3>
-                        <div class="col-details">
-
-                          <p>Lorem ipsum dolor sit amet consect adipisscin elit proin vel lectus ut eta esami vera dolor sit amet consect</p>
-                          
-                        </div>
-                        <a href="#" class="btn btn-primary"> Read more </a>
-                    
-                  </div>
-                  
-                </div>
-
-
-                <div class="col-md-3 col-sm-6">
-                
-                  <div class="about-us-col">
-
-                        <div class="col-icon-wrapper">
-                          <img src="assets/images/icons/help-icon.png" alt="">
-                        </div>
-                        <h3 class="col-title">Help & support</h3>
-                        <div class="col-details">
-
-                          <p>Lorem ipsum dolor sit amet consect adipisscin elit proin vel lectus ut eta esami vera dolor sit amet consect</p>
-                          
-                        </div>
-                        <a href="#" class="btn btn-primary"> Read more </a>
-                    
-                  </div>
-                  
-                </div>
-
-
-                <div class="col-md-3 col-sm-6">
-                
-                  <div class="about-us-col">
-
-                        <div class="col-icon-wrapper">
-                          <img src="assets/images/icons/programs-icon.png" alt="">
-                        </div>
-                        <h3 class="col-title">our programs</h3>
-                        <div class="col-details">
-
-                          <p>Lorem ipsum dolor sit amet consect adipisscin elit proin vel lectus ut eta esami vera dolor sit amet consect</p>
-                          
-                        </div>
-                        <a href="#" class="btn btn-primary"> Read more </a>
-                    
-                  </div>
-                  
-                </div>
-                
-
-                
-            </div>
-
-        </div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-		<!-- Scripts -->
-			<script src="assets/js/jquery.min.js"></script>
-			<script src="assets/js/jquery.dropotron.min.js"></script>
-			<script src="assets/js/jquery.scrolly.min.js"></script>
-			<script src="assets/js/jquery.onvisible.min.js"></script>
-			<script src="assets/js/skel.min.js"></script>
-			<script src="assets/js/util.js"></script>
-			<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
-			<script src="assets/js/main.js"></script>
-
-	</body>
-</html>
+<?php include_once '../themes/footer.php'; ?>

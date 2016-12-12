@@ -221,9 +221,13 @@ ul.contact li a.icon-rss:before {
 	text-transform: uppercase;
 	font-weight: 600;
 	color: #FFF;
+	border: none;
+	box-shadow: 0 1px 1px #999;
+
 }
 .button:hover {
 	background: #86bd3b;
+	cursor: pointer;
 }
 .button:active {
 }
@@ -364,6 +368,15 @@ nav {
 	text-transform: uppercase;
 	font-size: 1.2em;
 	color: #A2A2A2;
+}
+article{
+	color: #000;
+	font-weight: 400;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	margin: 20px 0 20px;
+	background: #fff;
+	padding: 20px;
+	clear: both;
 }
 
 /********//* Page *//********/
@@ -650,3 +663,6 @@ footer .button {
 .extra2 .ebox2 {
 	float: right;
 }
+
+/* input */
+
