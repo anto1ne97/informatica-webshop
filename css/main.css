@@ -369,6 +369,18 @@ nav {
 	font-size: 1.2em;
 	color: #A2A2A2;
 }
+#banner-page{
+	padding: 80%;
+	background-image: url(../images/background.png);
+	background-position: center;
+}
+#header-page {
+	padding: 10em 2em;
+	height: 800px;
+	background-image: url(../images/background.png);
+	background-position: center;
+	background-size: cover;
+}
 article{
 	color: #000;
 	font-weight: 400;
