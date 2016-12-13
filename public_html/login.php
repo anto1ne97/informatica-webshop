@@ -10,13 +10,13 @@ include_once '../themes/navbar.php';
 	<div id="featured" class="extra2 margin-btm container">
 		<div class="ebox1"> 
 			<div class="title">
-				<h2>Login</h2>
+				<h2>Inloggen</h2>
 			</div>
 			<form method="POST" action="../include/login-process.php">
 				<table style="margin-left: 20%;">
 					<tr>
-						<td class="width100px"><label for="username">Username </label></td>
-						<td><input type="text" name="username"></td>
+						<td><label for="email">Email </label></td>
+						<td><input type="text" name="email"></td>
 					</tr>
 					<tr>
 						<td><label for="password">Password</label></td>
@@ -35,24 +35,29 @@ include_once '../themes/navbar.php';
 			<form method="POST" action="../include/register-process.php">
 				<table style="margin-left: 15%;">
 					<tr>
-						<td><label for="username">Username </label></td>
-						<td><input type="text" name="username" required><span style="color: red;"> *</span></td>
+						<td><label for="email">E-mailadres </label></td>
+						<td><input type="text" name="email" required><span style="color: red;"> *</span></td>
 					</tr>
 					<tr>
-						<td><label for="password">Password </label></td>
+						<td><label for="voornaam">Voornaam </label></td>
+						<td><input type="voornaam" name="voornaam" required><span style="color: red;"> *</span></td>
+					</tr>
+					<tr>
+						<td><label for="achternaam">Achternaam </label></td>
+						<td><input type="achternaam" name="achternaam" required><span style="color: red;"> *</span></td>
+					</tr>
+					<tr>
+						<td><label for="password">Wachtwoord </label></td>
 						<td><input type="password" name="password" required><span style="color: red;"> *</span>
 							<!--<label style="display: block;"><input type="checkbox" name="passwordvisible" id="passwordvisible" >Show password</label></td>-->
 					</tr>
 					<tr>
-						<td><label for="email">Email </label></td>
-						<td><input type="email" name="email" required><span style="color: red;"> *</span></td>
+						<td colspan="2"><input type="checkbox" required>Ik accepteer de  <a href="../public_html/tos.php" target="_blank">Gebruikersvoorwaarden.</a></td>
 					</tr>
 					<tr>
 						<td><input class="button" type="submit" name="register" value="register"></td>
 					</tr>
-					<tr>
-						<td colspan="2">Read the <a href="../public_html/tos.php" target="_blank">boring legal stuff.</a></td>
-					</tr>
+					
 				</table>
 			</form>
 		</div>
