@@ -369,7 +369,14 @@ nav {
 	font-size: 1.2em;
 	color: #A2A2A2;
 }
-#banner-page{
+#banner span.asterisk {
+	color: red;
+	margin-left: 2px;
+	text-align: right;
+	display: inline;
+}
+}
+#banner-page {
 	padding: 80%;
 	background-image: url(../images/background.png);
 	background-position: center;
@@ -381,7 +388,7 @@ nav {
 	background-position: center;
 	background-size: cover;
 }
-article{
+article {
 	color: #000;
 	font-weight: 400;
 	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
@@ -389,7 +396,7 @@ article{
 	background: #fff;
 	padding: 20px;
 	clear: both;
-	opacity: 0.8;
+	opacity: 0.75;
 }
 
 /********//* Page *//********/
@@ -677,5 +684,10 @@ footer .button {
 	float: right;
 }
 
-/* input */
 
+
+table#openingstijden {
+	margin-left: 40%;
+	text-align: left;
+
+}
