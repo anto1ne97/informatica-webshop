@@ -1,14 +1,14 @@
 <?php
 session_start();
 
-$title = "Terms of Service";
+$title = "Gebruikersvoorwaarden";
 include_once '../themes/header.php';
 ?>
 
 <div id="header-featured">
 	<div id="banner">
 		<h2>Amanda & Co. Pannenkoeken</h2>
-		<h2>Terms of Service</h2>
+		<h2>Gebruikersvoorwaarden</h2>
 		<article>
 			We happily collect your personal information. Name, address, bank accounts, nothing is secure.<br>
 			Vanaf hier kunnen we het aanvullen als we dat zouden willen. Hij stopt automatisch bij 1000 pixels. Dan is de ruimte op.
@@ -19,7 +19,7 @@ include_once '../themes/header.php';
 		</article>
 		<br>
 		<p>
-			<a href="javascript:window.open('','_self').close();" class="button">Close this tab.</a>
+			<a href="javascript:window.open('','_self').close();" class="button">Dit tabblad sluiten</a>
 		</p>
 	</div>
 </div>

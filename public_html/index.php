@@ -9,7 +9,11 @@ include_once '../themes/navbar.php';
 <div id="header-featured">
 	<div id="banner">
 		<h2>Amanda & Co. Pannenkoeken</h2>
-		<p>Welkom bij Amanda & Co. Pannenkoeken Restaurant. Dit is een heel gezellig restaurant op planeet Aarde in een zonnesysteem in het sterrenstelsel genaamd Melkweg. Kan iemand hier een tekst bedenken?</p>
+		<article>
+			Welkom bij Amanda & Co pannenkoeken. Bij ons kunt u terecht als u een pannenkoek wilt eten, maar geen tijd hebt om ze te bakken! Met een simpele klik op de bestelknop kunt u de allerlekkerste pannenkoeken bestellen. Wij zijn gedreven, gastvrij, ambitieus, kundig en dienstbaar. Maar boven alles: wij hebben liefde en passie voor ons vak en stralen dat in alles wat we doen uit.<br>
+			Ons team bestaat uit een groep jonge enthousiaste medewerkers met een vakgerichte opleiding in de pannenkoeken branche onder leiding van de eigenaar Amanda meulink.<br>
+			Onze gerechten zijn gevarieerd en fijn van smaak. Het menu bestaat uit traditionele Pannenkoeken,  maar speciale pannenkoeken die alleen bij ons verkrijgbaar is. De specialiteiten zijn benoemd naar onze trouwe werknemers, die met al hun liefde proberen dit bedrijf tot een succes te brengen.  Onze koks zijn altijd bezig met het uitproberen van nieuwe gerechten om keer op keer culinaire hoogstandjes te bereiden. Bent u benieuwd naar onze gerechten? Hebben wij uw interesse al gewekt? bekijk dan snel onze menukaart!
+		</article>
 		<a href="/webshop/public_html/bestellen.php" class="button">Bestel nu</a>
 	</div>
 </div>
