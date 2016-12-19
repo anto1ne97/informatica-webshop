@@ -5,7 +5,7 @@ $errflag	= false;
 
 // configuration
 $dbhost 	= "localhost";
-$dbname		= "pannekoekdb";
+$dbname		= "pannenkoekdb";
 $dbuser		= "root";
 $dbpass		= "usbw";
 $options 	= array(PDO::ATTR_EMULATE_PREPARES => false, PDO::ATTR_ERRMODE => PDO::ERRMODE_EXCEPTION);

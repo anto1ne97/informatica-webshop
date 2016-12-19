@@ -23,7 +23,7 @@ include_once '../themes/navbar.php';
 						<td><input type="password" name="password"></td>
 					</tr>
 					<tr>
-						<td><input class="button"type="submit" name="login" value="log in"></td>
+						<td><input class="button" type="submit" name="login" value="log in"></td>
 					</tr>
 				</table>
 			</form>
