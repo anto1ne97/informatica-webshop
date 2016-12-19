@@ -26,3 +26,12 @@
 include/db_conn/website.php
 artikelen.sql
 C:/xampp/mysql/data/
+
+
+menukaart
+bestellen
+optijden
+contact
+mijn account
+
+tekst about.php -> index.php
