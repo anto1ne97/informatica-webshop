@@ -1,7 +1,7 @@
 <?php
 session_start();
 
-$title = "Login / Register";
+$title = "Inloggen / Registreren";
 include_once '../themes/header.php';
 include_once '../themes/navbar.php';
 ?>
