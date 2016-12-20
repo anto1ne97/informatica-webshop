@@ -27,21 +27,25 @@ include/db_conn/website.php
 J:/xampp/mysql/data/
 
 
-Home
-Bestellen
-Openingstijden
-Het Team
-Contact
-Mijn Account
-	'Profiel'	?
-	Uitloggen
+* Home
+* Bestellen
+* Openingstijden
+* Het Team
+* Contact
+* Mijn Account
+  *	'Profiel'	?
+  *	Uitloggen
 
 
-add wallpaper to about.php
+- [ ] add wallpaper to about.php
+- [ ]
+
+
+```css
  style="background-image: url(../images/background.jpg);
-
+```
 
 Bitnami for XAMPP Applications
-- PrestaShop
-- Magento
-- OpenCart
+* PrestaShop
+* Magento
+* OpenCart
