@@ -25,8 +25,8 @@
 
 ---
 
-[include/db_conn/website.php]\s\s
-[J:/xampp/mysql/data/]
+include/db_conn/website.php  
+J:/xampp/mysql/data/
 
 ---
 
