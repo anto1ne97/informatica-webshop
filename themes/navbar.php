@@ -4,7 +4,7 @@
 	</div>
 	<div id="menu">
 		<ul>
-			<li><a href="/webshop/public_html/menukaart.php">Menukaart</a></li>
+<!--			<li><a href="/webshop/public_html/menukaart.php">Menukaart</a></li> -->
 			<li><a href="/webshop/public_html/bestellen.php">Bestellen</a></li>
 			<li><a href="/webshop/public_html/about.php">Wie zijn wij?</a></li>
 			<li><a href="/webshop/public_html/openingstijden.php">Openingstijden</a></li>
