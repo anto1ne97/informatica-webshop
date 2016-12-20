@@ -25,10 +25,7 @@
 
 ---
 
-[include/db_conn/website.php]
-
-
-
+[include/db_conn/website.php]\s\s
 [J:/xampp/mysql/data/]
 
 ---
