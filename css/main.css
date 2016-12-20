@@ -691,3 +691,10 @@ table#openingstijden {
 	text-align: left;
 
 }
+
+.bestellen h2 {
+	padding-bottom: 5px;
+	font-weight: 400;
+	font-size: 3em;
+	color: #000;
+}
