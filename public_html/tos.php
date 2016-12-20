@@ -7,7 +7,7 @@ include_once '../themes/header.php';
 
 <div id="header-featured">
 	<div id="banner">
-		<h2>Amanda & Co. Pannenkoeken</h2>
+		<h2>Amanda &amp; Co. Pannenkoeken</h2>
 		<h2>Gebruikersvoorwaarden</h2>
 		<article>
 			We happily collect your personal information. Name, address, bank accounts, nothing is secure.<br>

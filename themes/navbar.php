@@ -1,6 +1,6 @@
 <nav class="container">
 	<div id="logo">
-		<h1><a href="/webshop/public_html/index.php">Amanda & Co.</a></h1>
+		<h1><a href="/webshop/public_html/index.php">Amanda &amp; Co.</a></h1>
 	</div>
 	<div id="menu">
 		<ul>
