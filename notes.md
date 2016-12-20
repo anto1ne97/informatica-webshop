@@ -25,7 +25,7 @@
 
 ---
 
-include/db_conn/website.php  
+include/db\_conn/website\.php  
 J:/xampp/mysql/data/
 
 ---
@@ -41,13 +41,13 @@ J:/xampp/mysql/data/
 
 ---
 
-- [ ] add wallpaper to about.php
-- [ ]
+- [ ] add wallpaper to about\.php
+- [ ] #7 \.htaccess: hide url subfolders \(url rewriting\)
 
 ---
 
 ```css
- style="background-image: url(../images/background.jpg);
+ style="background-image: url(../images/background.jpg);"
 ```
 
 ---

@@ -1,7 +1,5 @@
 #A6 Informatica Webshop Project
 
----
-
 /\* TEAM /\*
 
 	Developers:		Antoine, Amanda, Jelle, Luc, Sjoerd  
