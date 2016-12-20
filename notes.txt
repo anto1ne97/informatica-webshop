@@ -34,4 +34,6 @@ optijden
 contact
 mijn account
 
-tekst about.php -> index.php
+add wallpaper to about.php
+ style="background-image: url(../images/background.jpg);
+
