@@ -1,3 +1,4 @@
+```html
 <html>
 <head>
 </head>
@@ -20,12 +21,14 @@
 	</footer>
 </body>
 </html>
+```
 
+---
 
+[include/db_conn/website.php]
+[J:/xampp/mysql/data/]
 
-include/db_conn/website.php
-J:/xampp/mysql/data/
-
+---
 
 * Home
 * Bestellen
@@ -36,16 +39,20 @@ J:/xampp/mysql/data/
   *	'Profiel'	?
   *	Uitloggen
 
+---
 
 - [ ] add wallpaper to about.php
 - [ ]
 
+---
 
 ```css
  style="background-image: url(../images/background.jpg);
 ```
 
-Bitnami for XAMPP Applications
+---
+
+Bitnami for XAMPP Applications  
 * PrestaShop
 * Magento
 * OpenCart
