@@ -8,7 +8,7 @@
 
 /\* SITE /\*
 
-	Last update:	2016-12-20  
+	Last update:	2017-01-03  
 	Language:		English, Dutch  
 	Standards:		HTML5, CSS3, PHP7  
 	Components:		jQuery,   

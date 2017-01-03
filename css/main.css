@@ -43,6 +43,10 @@ a:hover {
 
 .image {
 	display: inline-block;
+	margin-bottom: 1em;
+	width: 3em;
+	height: 3em;
+	font-size: 4em;
 }
 .image img {
 	display: block;
@@ -64,6 +68,9 @@ a:hover {
 .image-centered img {
 	margin: 0 auto;
 	width: auto;
+}
+.image-circle {
+	border-radius: 50%;
 }
 
 /***************//* List Styles *//***************/
@@ -223,11 +230,11 @@ ul.contact li a.icon-rss:before {
 	color: #FFF;
 	border: none;
 	box-shadow: 0 1px 1px #999;
-
 }
 .button:hover {
 	background: #86bd3b;
 	cursor: pointer;
+	opacity: 100%;
 }
 .button:active {
 }
