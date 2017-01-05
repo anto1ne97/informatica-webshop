@@ -12,7 +12,7 @@ include_once '../themes/navbar.php';
 			<div class="title">
 				<h2>Inloggen</h2>
 			</div>
-			<form method="POST" action="../include/login-process.php">
+			<form method="POST" action="../include/login-process.php" class="js-form">
 				<table style="margin-left: 20%; text-align: left;">
 					<tr>
 						<td><label for="email">E-mailadres</label></td>
@@ -32,7 +32,7 @@ include_once '../themes/navbar.php';
 			<div class="title">
 				<h2>Registreren</h2>					
 			</div>
-			<form method="POST" action="../include/register-process.php">
+			<form method="POST" action="../include/register-process.php" class="js-form">
 				<table style="margin-left: 15%; text-align: left;">
 					<tr>
 						<td><label for="email">E-mailadres</label></td>
@@ -47,15 +47,14 @@ include_once '../themes/navbar.php';
 						<td><input type="text" name="achternaam" required><span class="asterisk">*</span></td>
 					</tr>
 					<tr>
-						<td><label for="password">Wachtwoord</label></td>
-						<td><input type="password" name="password" required><span class="asterisk">*</span>
-							<!--<label style="display: block;"><input type="checkbox" name="passwordvisible" id="passwordvisible" >Show password</label></td>-->
+						<td><label for="form-password">Wachtwoord</label></td>
+						<td><input type="password" class="js-password" id="form-password" required><span class="asterisk">*</span></td>
 					</tr>
 					<tr>
 						<td colspan="2"><label><input type="checkbox" required>Ik accepteer de <a href="../public_html/tos.php" target="_blank">Gebruikersvoorwaarden.</a></label></td>
 					</tr>
 					<tr>
-						<td><input class="button" type="submit" name="register" value="registreren"></td>
+						<td><input type="submit" class="button js-submit" value="registreren"></td>
 					</tr>
 				</table>
 			</form>
