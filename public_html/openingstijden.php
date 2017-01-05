@@ -12,31 +12,31 @@ include_once '../themes/navbar.php';
 		<article>
 			<table id="openingstijden">
 				<tr>
-					<td>Maandag:</td>
+					<th>Maandag:</th>
 					<td>9:00 - 22:00</td>
 				</tr>
 				<tr>
-					<td>Dinsdag:</td>
+					<th>Dinsdag:</th>
 					<td>9:00 - 22:00</td>
 				</tr>
 				<tr>
-					<td>Woensdag:</td>
+					<th>Woensdag:</th>
 					<td>9:00 - 22:00</td>
 				</tr>
 				<tr>
-					<td>Donderdag:</td>
+					<th>Donderdag:</th>
 					<td>9:00 - 22:00</td>
 				</tr>
 				<tr>
-					<td>Vrijdag:</td>
+					<th>Vrijdag:</th>
 					<td>9:00 -  0:00</td>
 				</tr>
 				<tr>
-					<td>Zaterdag:</td>
+					<th>Zaterdag:</th>
 					<td>0:00 -  0:00</td>
 				</tr>
 				<tr>
-					<td>Zondag:</td>
+					<th>Zondag:</th>
 					<td>9:00 - 22:00</td>
 				</tr>
 			</table>
