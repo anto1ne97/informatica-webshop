@@ -156,7 +156,7 @@ section {
 .asterisk {
 	color: red;
 }
-.form {
+form {
 	display: inline-block;
 }
 .pl30px {

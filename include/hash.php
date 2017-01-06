@@ -1,7 +1,7 @@
 <?php
 $user = $stmt->fetch(PDO::FETCH_ASSOC);
 	if ($user === false) {
-		die("Username is not found");
+		die("Email address is not found");
 	}
 	else {
 		// compare the passwords
@@ -9,7 +9,7 @@ $user = $stmt->fetch(PDO::FETCH_ASSOC);
 
 		// if $validPassword is true, login successful
 		if ($validPassword) {
-			$_SESSION['username'] = $username;
+			$_SESSION['email'] = $email;
 
 			header('location: ../public_html/securedpage.php');
 			exit;

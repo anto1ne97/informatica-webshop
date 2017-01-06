@@ -1,23 +1,29 @@
-<main>
-	<nav>
-		<h1><a href="../public_html/index.php" class="logo">Amanda & Co. Pannenkoeken</a></h1>
+<nav class="container">
+	<div id="logo">
+		<h1><a href="/webshop/public_html/index.php">Amanda &amp; Co.</a></h1>
+	</div>
+	<div id="menu">
 		<ul>
-			<li><a href="../public_html/index.php">Home</a></li>
-			<li><a href="../public_html/about.php">Placeholder Text</a></li>
-			<li><a href="../public_html/portfolio.php">Placeholder Text</a>
-			<?php if (isset($_SESSION['username'])) : ?>
-				<ul>
-					<li><a href="../public_html/#.php">Placeholder Text</a></li>
-					<li><a href="../public_html/#.php">Placeholder Text</a></li>
-					<li><a href="../public_html/#.php">Placeholder Text</a></li>
-				</ul>
-			<?php endif; ?>
-			</li>
-			<li><a href="../public_html/contact.php">Contact</a></li>
-			<?php if (isset($_SESSION['username'])) : ?>
-				<li><a href="../include/logout.php">Logout</a></li>
+<!--			<li><a href="/webshop/public_html/menukaart.php">Menukaart</a></li> -->
+			<li><a href="/webshop/public_html/bestellen.php">Bestellen</a></li>
+			<li><a href="/webshop/public_html/openingstijden.php">Openingstijden</a></li>
+			<li><a href="/webshop/public_html/about.php">Het Team</a></li>
+			<li><a href="/webshop/public_html/contact.php">Contact</a></li>
+			<?php if (isset($_SESSION['email'])) : ?>
+			<li><a href="/webshop/include/logout.php">Logout</a></li>
 			<?php else : ?>
-				<li><a href="../public_html/login.php">Login / Register</a></li>
+				<li><a href="/webshop/public_html/login.php">Mijn Account</a></li>
 			<?php endif; ?>
-		</ul>	
-	</nav>
+		</ul>
+	</div>
+</nav>
+<!--
+			<?php// if (isset($_SESSION['email'])) : ?>
+				<ul>
+					<li><a href="/webshop/public_html/#.php">Placeholder Text</a></li>
+					<li><a href="/webshop/public_html/#.php">Placeholder Text</a></li>
+					<li><a href="/webshop/public_html/#.php">Placeholder Text</a></li>
+				</ul>
+			<?php// endif; ?>
+-->
+<main>

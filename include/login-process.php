@@ -5,12 +5,12 @@ require '../include/db_conn_website.php';
 if (isset($_POST['login'])) {
 
 	// new data 
-	$username = !empty($_POST['username']) ? trim($_POST['username']) : null;
+	$email = !empty($_POST['email']) ? trim($_POST['email']) : null;
     $passwordAttempt = !empty($_POST['password']) ? trim($_POST['password']) : null;
 
 	// retrieve user from database
-	$stmt = $conn->prepare("SELECT username, password FROM users WHERE username = :username");
-	$stmt->bindParam(':username', $username);
+	$stmt = $conn->prepare("SELECT email, password FROM klanten WHERE email = :email");
+	$stmt->bindParam(':email', $email);
 	$stmt->execute();
 //*	
 	$user = $stmt->fetch(PDO::FETCH_ASSOC);
@@ -23,7 +23,7 @@ if (isset($_POST['login'])) {
 
 		// if $validPassword is true, login successful
 		if ($validPassword) {
-			$_SESSION['username'] = $username;
+			$_SESSION['email'] = $email;
 
 			header('location: ../public_html/securedpage.php');
 			exit;
