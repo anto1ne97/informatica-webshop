@@ -17,8 +17,9 @@ include_once '../themes/navbar.php';
 					<h2>Kies je bodem</h2>
 				</div>
 				<div>
-					<input type="checkbox">naturel</input>
-					<a href="#" class="button">button</a>
+					<input type="checkbox" class="magic-checkbox" name="layout" id="1" value="naturel"></input>
+					<label for="1"></label>
+					<label class="text" for="1">checkbox</label>
 				</div>
 			</article>
 			<article class="ebox1">
