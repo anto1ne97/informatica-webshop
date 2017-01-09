@@ -344,6 +344,7 @@ nav {
 	background-image: url(../images/background.jpg);
 	background-position: center;
 	background-size: cover;
+	background-attachment: fixed;
 }
 #banner {
 	overflow: hidden;
@@ -387,6 +388,7 @@ nav {
 	padding: 80%;
 	background-image: url(../images/background.png);
 	background-position: center;
+	background-attachment: fixed;
 }
 #header-page {
 	padding: 10em 2em;
@@ -394,6 +396,7 @@ nav {
 	background-image: url(../images/background.png);
 	background-position: center;
 	background-size: cover;
+	background-attachment: fixed;
 }
 article {
 	color: #000;
@@ -404,6 +407,9 @@ article {
 	padding: 20px;
 	clear: both;
 	opacity: 0.75;
+}
+article.button {
+	opacity: 1;
 }
 
 /********//* Page *//********/
