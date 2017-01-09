@@ -18,12 +18,12 @@
 	</div>
 </nav>
 <!--
-			<?php// if (isset($_SESSION['email'])) : ?>
+			<?php if (isset($_SESSION['email'])) : ?>
 				<ul>
 					<li><a href="/webshop/public_html/#.php">Placeholder Text</a></li>
 					<li><a href="/webshop/public_html/#.php">Placeholder Text</a></li>
 					<li><a href="/webshop/public_html/#.php">Placeholder Text</a></li>
 				</ul>
-			<?php// endif; ?>
+			<?php endif; ?>
 -->
 <main>
