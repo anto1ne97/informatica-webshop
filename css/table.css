@@ -1,0 +1,21 @@
+table#openingstijden {
+	margin-left: 40%;
+}
+table#openingstijden th {
+	text-align: left;
+	font-weight: normal;
+}
+table#openingstijden td {
+	text-align: right;
+}
+
+table#contact {
+	margin-left: 35%;
+}
+table#contact th {
+	text-align: left;
+	font-weight: normal;
+}
+table#contact td {
+	text-align: right;
+}
