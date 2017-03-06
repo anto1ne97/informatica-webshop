@@ -1,5 +1,5 @@
 <?php
-session_start();
+require '../include/session.php';
 
 $title = "Amanda & Co. Pannenkoeken";
 include_once '../themes/header.php';
