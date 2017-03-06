@@ -19,12 +19,12 @@ include_once '../themes/navbar.php';
 				<div>
 					<input type="checkbox" class="magic-checkbox" name="layout" id="1" value="naturel"></input>
 					<label for="1"></label>
-					<label class="text" for="1">checkbox</label>
+					<label class="text" for="1">Kleine bodem</label>
 				</div>
 				<div>
 					<input type="checkbox" class="magic-checkbox" name="layout" id="2" value="naturel"></input>
 					<label for="2"></label>
-					<label class="text" for="2">checkbox</label>
+					<label class="text" for="2">Medium bodem</label>
 				</div>
 			</article>
 			<article class="ebox1">
