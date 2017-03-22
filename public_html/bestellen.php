@@ -34,18 +34,7 @@ include_once '../themes/navbar.php';
 				<p>
 					
 				</p>
-				<a href="#" class="button">
-
-				SELECT Productweergave, Prodcutomschrijving
-				FROM Producten 
-				WHERE Productnummer = 'S01'
-				</a>
-				<a href="#" class="button">
-
-				SELECT Productweergave, Prodcutomschrijving
-				FROM Producten 
-				WHERE Productnummer = 'S02'
-				</a>
+				<a href="#" class="button">button</a>
 			</article>
 			<article class="ebox1">
 				<div>
