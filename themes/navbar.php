@@ -13,7 +13,7 @@
 			<li><a href="/webshop/public_html/contact.php">Contact</a></li>
 			
 			<?php if (isset($_SESSION['email'])) : ?>
-			<li><a href="/webshop/public_html/securedpage.php">Mijn Account</a></li>
+			<li><a href="/webshop/public_html/account.php">Mijn Account</a></li>
 			<li><a href="/webshop/include/logout.php">Logout</a></li>
 			<?php else : ?>
 			<li><a href="/webshop/public_html/login.php">Mijn Account</a></li>

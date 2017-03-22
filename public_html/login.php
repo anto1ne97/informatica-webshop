@@ -38,7 +38,7 @@ include_once '../themes/navbar.php';
 						<td><label for="email">E-mailadres</label></td>
 						<td><input type="email" name="email" required><span class="asterisk">*</span></td>
 					</tr>
-					<tr>
+<!--					<tr>
 						<td><label for="voornaam">Voornaam</label></td>
 						<td><input type="text" name="voornaam" required><span class="asterisk">*</span></td>
 					</tr>
@@ -46,6 +46,7 @@ include_once '../themes/navbar.php';
 						<td><label for="achternaam">Achternaam</label></td>
 						<td><input type="text" name="achternaam" required><span class="asterisk">*</span></td>
 					</tr>
+-->
 					<tr>
 						<td><label for="form-password">Wachtwoord</label></td>
 						<td><input type="password" name="password" class="js-password" id="form-password" required><span class="asterisk">*</span></td>

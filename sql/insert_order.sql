@@ -19,7 +19,7 @@ SET bprijs =
      )
 WHERE ordernummer = 1;
 
---
+-- DEZE HIER ONDER IS DE JUISTE QUERY
 
 INSERT INTO orders (aprijs, aweergave, bprijs, bweergave, t1prijs, t1weergave, t2prijs, t2weergave, t3prijs, t3weergave, eprijs, eweergave, dprijs, dweergave)
 VALUES (

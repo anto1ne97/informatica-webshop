@@ -35,16 +35,18 @@ include_once '../themes/navbar.php';
 					
 				</p>
 				<a href="#" class="button">
-
-				SELECT Productweergave, Prodcutomschrijving
+<?php
+				SELECT Productweergave, Prodcutomschrijving, xprijs
 				FROM Producten 
 				WHERE Productnummer = 'S01'
+?>
 				</a>
 				<a href="#" class="button">
-
-				SELECT Productweergave, Prodcutomschrijving
+<?php
+				SELECT Productweergave, Prodcutomschrijving, xprijs
 				FROM Producten 
 				WHERE Productnummer = 'S02'
+?>
 				</a>
 			</article>
 			<article class="ebox1">
