@@ -6,8 +6,6 @@ if (isset($_POST['register'])) {
 
 	// new data
 	$email = !empty($_POST['email']) ? trim($_POST['email']) : null;
-//	$voornaam = !empty($_POST['voornaam']) ? trim($_POST['voornaam']) : null;
-//	$achternaam = !empty($_POST['achternaam']) ? trim($_POST['achternaam']) : null;
 	$password = !empty($_POST['password']) ? trim($_POST['password']) : null;
 	
 	// check whether email address exists
@@ -25,8 +23,6 @@ if (isset($_POST['register'])) {
 	// add user to database
 	$stmt = $conn->prepare("INSERT INTO klanten (email, password) VALUES (:email, :password)");
 	$stmt->bindParam(':email', $email);
-//	$stmt->bindParam(':voornaam', $voornaam);
-//	$stmt->bindParam(':achternaam', $achternaam);
 	$stmt->bindParam(':password', $passwordHash);
 	$result = $stmt->execute();
 	if($result) {
