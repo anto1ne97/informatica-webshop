@@ -1,6 +1,6 @@
 <?php
 require '../include/session.php';
-header("refresh: 3; url=../public_html/account.php");
+header("refresh: 2; url=../public_html/account.php");
 
 $title = "Registration";
 include_once '../themes/header.php';

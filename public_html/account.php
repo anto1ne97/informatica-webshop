@@ -26,7 +26,7 @@ include_once '../themes/navbar.php';
 					</tr>
 					<tr>
 						<td><label for="huisnummer">Huisnummer</label></td>
-						<td><input type="text" name="huisnummer" required><span class="asterisk">*</span></td>
+						<td><input type="number" name="huisnummer" required><span class="asterisk">*</span></td>
 						<td><label for="toevoeging">Toevoeging</label></td>
 						<td><input type="text" name="toevoeging"></td>
 					</tr>
@@ -34,7 +34,7 @@ include_once '../themes/navbar.php';
 						<td><label for="woonplaats">Woonplaats</label></td>
 						<td><input type="text" name="woonplaats" required><span class="asterisk">*</span></td>
 						<td><label for="postcode">Postcode</label></td>
-						<td><input type="text" name="postcode" required><span class="asterisk">*</span></td>
+						<td><input type="text" name="postcode" pattern="[0-9]{4)[A-Z]{2}" required><span class="asterisk">*</span></td>
 					</tr>
 					<tr>
 						<td><label for="telefoonnummer">Telefoonnummer</label></td>
