@@ -20,6 +20,7 @@
 <!-- -->
 	<script src="//code.jquery.com/jquery-3.1.1.min.js"></script>
 	<script src="/webshop/js/toggle-passwords.js"></script>
+	<script src="/webshop/js/topping-limit.js"></script>
 	
 </head>
 <body>
