@@ -41,7 +41,6 @@ if (isset($_POST['update'])) {
 			$stmt->bindParam(':email', $_SESSION['email']);
 			$stmt->bindParam(':voornaam', $voornaam);
 			$stmt->bindParam(':achternaam', $achternaam);
-		//	$stmt->bindParam(':password', $passwordHash);
 			$stmt->bindParam(':straat', $straat);
 			$stmt->bindParam(':huisnummer', $huisnummer);
 			$stmt->bindParam(':toevoeging', $toevoeging);
@@ -56,7 +55,7 @@ if (isset($_POST['update'])) {
 				echo "fail";
 			}
 		}
-		else{
+		else {
 			// $validPassword is false, passwords don't match
 			die('Incorrect username / password combination.');
 		}

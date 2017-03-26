@@ -19,20 +19,22 @@
 |---------------------|---------------|------|-------------|-------|
 | orderID             | int(11)       | No   | Primary Key | A_I   |
 | klantID             | int(11)       | No   | Index       |       |
-| aprijs              | varchar(255)  | Yes  | NULL        |       |
+| aprijs              | decimal(19,2) | Yes  | NULL        |       |
 | aweergave           | varchar(255)  | Yes  | NULL        |       |
-| bprijs              | varchar(255)  | Yes  | NULL        |       |
+| bprijs              | decimal(19,2) | Yes  | NULL        |       |
 | bweergave           | varchar(255)  | Yes  | NULL        |       |
-| t1prijs             | varchar(255)  | Yes  | NULL        |       |
+| t1prijs             | decimal(19,2) | Yes  | NULL        |       |
 | t1weergave          | varchar(255)  | Yes  | NULL        |       |
-| t2prijs             | varchar(255)  | Yes  | NULL        |       |
+| t2prijs             | decimal(19,2) | Yes  | NULL        |       |
 | t2weergave          | varchar(255)  | Yes  | NULL        |       |
-| t3prijs             | varchar(255)  | Yes  | NULL        |       |
+| t3prijs             | decimal(19,2) | Yes  | NULL        |       |
 | t3weergave          | varchar(255)  | Yes  | NULL        |       |
-| eprijs              | varchar(255)  | Yes  | NULL        |       |
+| eprijs              | decimal(19,2) | Yes  | NULL        |       |
 | eweergave           | varchar(255)  | Yes  | NULL        |       |
-| dprijs              | varchar(255)  | Yes  | NULL        |       |
+| dprijs              | decimal(19,2) | Yes  | NULL        |       |
 | dweergave           | varchar(255)  | Yes  | NULL        |       |
+| sprijs              | decimal(19,2) | Yes  | NULL        |       |
+| sweergave           | varchar(255)  | Yes  | NULL        |       |
 
 ####producten
 | Name                | Type          | Null | Default     | Extra |
