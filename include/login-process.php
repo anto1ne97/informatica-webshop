@@ -24,8 +24,7 @@ if (isset($_POST['login'])) {
 		// if $validPassword is true, login successful
 		if ($validPassword) {
 			$_SESSION['email'] = $email;
-
-			header('location: ../public_html/securedpage.php');
+			header('location: ../public_html/bestellen.php');
 			exit;
 		}
 		else{

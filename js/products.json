@@ -1,0 +1,274 @@
+{
+  "producten": [
+    {
+      "productnummer": "D05",
+      "productweergave": "Tonic",
+      "productomschrijving": "Blikje Royalclub tonic 33cl",
+      "prijs": "1.5);"
+    },
+    {
+      "productnummer": "D06",
+      "productweergave": "Cassis",
+      "productomschrijving": "Blikje Fanta cassis 33cl",
+      "prijs": "1.5);"
+    },
+    {
+      "productnummer": "D07",
+      "productweergave": "Spa Blauw",
+      "productomschrijving": "Spa mineraalwater",
+      "prijs": "1.2);"
+    },
+    {
+      "productnummer": "D08",
+      "productweergave": "Spa Rood",
+      "productomschrijving": "Spa bruisend mineraalwater",
+      "prijs": "1.3);"
+    },
+    {
+      "productnummer": "D09",
+      "productweergave": "Bier",
+      "productomschrijving": "Heineken bier",
+      "prijs": "2.5);"
+    },
+    {
+      "productnummer": "D10",
+      "productweergave": "Bier en tieten",
+      "productomschrijving": "NULL",
+      "prijs": "5);"
+    },
+    {
+      "productnummer": "T01",
+      "productweergave": "Suiker",
+      "productomschrijving": "Poedersuiker",
+      "prijs": ".2);"
+    },
+    {
+      "productnummer": "T02",
+      "productweergave": "Stroop",
+      "productomschrijving": "Van Gilse Stroop",
+      "prijs": ".25);"
+    },
+    {
+      "productnummer": "T04",
+      "productweergave": "Nutella",
+      "productomschrijving": "Nutella Hazelnootpasta",
+      "prijs": "0);"
+    },
+    {
+      "productnummer": "T03",
+      "productweergave": "Kaneel",
+      "productomschrijving": "Basterdsuiker met kaneel",
+      "prijs": ".2);"
+    },
+    {
+      "productnummer": "T05",
+      "productweergave": "Jonge kaas",
+      "productomschrijving": "Beemster jonge kaas",
+      "prijs": ".75);"
+    },
+    {
+      "productnummer": "T06",
+      "productweergave": "Belegen kaas",
+      "productomschrijving": "Beemster belegen kaas",
+      "prijs": ".75);"
+    },
+    {
+      "productnummer": "T07",
+      "productweergave": "Oude kaas",
+      "productomschrijving": "Beemster oude kaas",
+      "prijs": ".75);"
+    },
+    {
+      "productnummer": "T08",
+      "productweergave": "Feta kaas",
+      "productomschrijving": "Blokjes feta",
+      "prijs": ".75);"
+    },
+    {
+      "productnummer": "T09",
+      "productweergave": "Rozijnen",
+      "productomschrijving": "Sundrop rozijnen",
+      "prijs": ".4);"
+    },
+    {
+      "productnummer": "T11",
+      "productweergave": "Banaan",
+      "productomschrijving": "Chicita bananen sneetje",
+      "prijs": "1.5);"
+    },
+    {
+      "productnummer": "T12",
+      "productweergave": "Appel",
+      "productomschrijving": "Pink lady appel sneetje",
+      "prijs": "1.5);"
+    },
+    {
+      "productnummer": "T13",
+      "productweergave": "Ananas",
+      "productomschrijving": "Gesneden ananas",
+      "prijs": "1.5);"
+    },
+    {
+      "productnummer": "T14",
+      "productweergave": "Peer",
+      "productomschrijving": "Sneetje peer",
+      "prijs": "1.5);"
+    },
+    {
+      "productnummer": "T15",
+      "productweergave": "Meloen",
+      "productomschrijving": "NULL",
+      "prijs": "1.5);"
+    },
+    {
+      "productnummer": "T16",
+      "productweergave": "Bosbessen",
+      "productomschrijving": "NULL",
+      "prijs": "1.5);"
+    },
+    {
+      "productnummer": "T17",
+      "productweergave": "Framboos",
+      "productomschrijving": "NULL",
+      "prijs": "1.5);"
+    },
+    {
+      "productnummer": "T18",
+      "productweergave": "Aardbei",
+      "productomschrijving": "NULL",
+      "prijs": "1.5);"
+    },
+    {
+      "productnummer": "T19",
+      "productweergave": "Ham",
+      "productomschrijving": "NULL",
+      "prijs": "1.75);"
+    },
+    {
+      "productnummer": "T20",
+      "productweergave": "Spek",
+      "productomschrijving": "NULL",
+      "prijs": "1.75);"
+    },
+    {
+      "productnummer": "T21",
+      "productweergave": "Salami",
+      "productomschrijving": "NULL",
+      "prijs": "1.75);"
+    },
+    {
+      "productnummer": "T22",
+      "productweergave": "Bacon",
+      "productomschrijving": "NULL",
+      "prijs": "2);"
+    },
+    {
+      "productnummer": "T23",
+      "productweergave": "Shoarma",
+      "productomschrijving": "NULL",
+      "prijs": "2);"
+    },
+    {
+      "productnummer": "T24",
+      "productweergave": "Kip",
+      "productomschrijving": "NULL",
+      "prijs": "2);"
+    },
+    {
+      "productnummer": "E02",
+      "productweergave": "Greek salad",
+      "productomschrijving": "Salade met rucola + tomaat + fetakaas en pijnboompitten",
+      "prijs": "4.5);"
+    },
+    {
+      "productnummer": "E03",
+      "productweergave": "Caesar\\'s salad",
+      "productomschrijving": "Een salade met kip + tomaat + paprika en honing\\-mosterd dressing",
+      "prijs": "5);"
+    },
+    {
+      "productnummer": "E04",
+      "productweergave": "Tosti",
+      "productomschrijving": "Een tosti met jonge kaas",
+      "prijs": "1.9);"
+    },
+    {
+      "productnummer": "E05",
+      "productweergave": "Ham/Kaas",
+      "productomschrijving": "Een tosti met ham \\& kaas",
+      "prijs": "2);"
+    },
+    {
+      "productnummer": "E06",
+      "productweergave": "Portie patat",
+      "productomschrijving": "NULL",
+      "prijs": "2.25);"
+    },
+    {
+      "productnummer": "D01",
+      "productweergave": "Coca-cola",
+      "productomschrijving": "Blikje coca\\-cola 33cl",
+      "prijs": "1.5);"
+    },
+    {
+      "productnummer": "D02",
+      "productweergave": "Fanta",
+      "productomschrijving": "Blikje fanta 33cl",
+      "prijs": "1.5);"
+    },
+    {
+      "productnummer": "D03",
+      "productweergave": "Sprite",
+      "productomschrijving": "Blikje sprite 33cl",
+      "prijs": "1.5);"
+    },
+    {
+      "productnummer": "A01",
+      "productweergave": "Kleine bodem",
+      "productomschrijving": "25 cm",
+      "prijs": "12.5);"
+    },
+    {
+      "productnummer": "A02",
+      "productweergave": "Medium bodem",
+      "productomschrijving": "30 cm",
+      "prijs": "13);"
+    },
+    {
+      "productnummer": "A03",
+      "productweergave": "Grote bodem",
+      "productomschrijving": "35 cm",
+      "prijs": "13.5);"
+    },
+    {
+      "productnummer": "A04",
+      "productweergave": "XXL Bodem",
+      "productomschrijving": "40 cm",
+      "prijs": "14);"
+    },
+    {
+      "productnummer": "B01",
+      "productweergave": "Appel",
+      "productomschrijving": "Bodem met appels",
+      "prijs": "1.3);"
+    },
+    {
+      "productnummer": "B02",
+      "productweergave": "Spek",
+      "productomschrijving": "Bodem met spek",
+      "prijs": "1.4);"
+    },
+    {
+      "productnummer": "B03",
+      "productweergave": "Bessen",
+      "productomschrijving": "Bodem met bosbessen",
+      "prijs": "1.5);"
+    },
+    {
+      "productnummer": "B04",
+      "productweergave": "Chocolade",
+      "productomschrijving": "Bodem met chocolade",
+      "prijs": "2);"
+    }
+  ]
+}

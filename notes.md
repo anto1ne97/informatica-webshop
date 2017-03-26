@@ -44,6 +44,7 @@ J:/xampp/mysql/data/
 - [ ] add wallpaper to about\.php
 - [ ] #7 \.htaccess: hide subfolders in url \(url rewriting\)
 - [x] #9 password === "text" when submitting while password is shown
+- [ ] ...
 
 ---
 

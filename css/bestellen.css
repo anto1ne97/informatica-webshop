@@ -1,0 +1,29 @@
+.bestellen h2 {
+	padding-bottom: 5px;
+	font-weight: 400;
+	font-size: 3em;
+	color: #000;
+}
+.bodemsize {
+	float: left;
+	padding-right: 50px;
+}
+.bodembeleg {
+	float: right;
+	padding-right: 50px;
+}
+fieldset {
+	border-style: none;
+	text-align: left;
+}
+.productomschrijving {
+	padding-left: 30px;
+	font-style: italic;
+}
+.productprijs {
+	float: right;
+}
+.disabled {
+	color: #ccc;
+	cursor: not-allowed;
+}

@@ -25,7 +25,7 @@ $( function() {
 	
 	// Set the form field back to a regular password element
 	$submit.on( "click", function(e) {
-		e && e.preventDefault();
+	//	e && e.preventDefault();
 		$field.attr("type","password");
 	});
 });
