@@ -11,7 +11,7 @@ include_once '../themes/usr.php';
 				<h2>401</h2>
 			</header>
 			<p>
-				WHO THE FUCK ARE YOU?! 
+				Who are you?
 			</p>
 		</article>
 

@@ -11,6 +11,9 @@ include_once '../themes/navbar.php';
 		<h2>Welkom <b><?php echo $_SESSION['email']; ?></b></h2>
 		<article>
 			U heeft met succes de bestelling afgerond.
+			<br>
+			<?php print_r($_SESSION); ?>
+			<?php include_once '../include/show-orders.php'; ?>
 		</article>
 	</div>
 </div>

@@ -1,3 +1,0 @@
-var producten = '{"products":[' +
-						'{"productnummer":"D05","productweergave":"Tonic","productomschrijving":"Blikje Royalclub tonic 33cl","prijs":1.5 },' +
-						'{"productnummer":"D06","productweergave":"Cassis","productomschrijving":"Blikje Fanta cassis 33cl","prijs":1.5 }]}';

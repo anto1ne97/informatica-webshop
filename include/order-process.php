@@ -15,12 +15,13 @@ if (isset($_POST['order'])) {
 							");
 	$stmt->bindParam(':productID', $productID);
 	$result = $stmt->execute();
-			if($result) {
-				header('location: ../public_html/order-success.php');
-				exit;
-			} else {
-				echo "fail";
-			}
+	
+	if($result) {
+		header('location: ../public_html/order-success.php');
+		exit;
+	} else {
+		echo "fail";
+	}
 
 }
 $conn = null;
