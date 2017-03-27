@@ -25,5 +25,6 @@
 6. De mappen wijzen voor zich. In sommige bestanden bevindt zich uitgecommente code, om het ontwikkelproces openbaar te maken.
 
 Optioneel:
+
 7. Verander in 'bestellen.php' `action="../include/order-process.php"` in `action="../include/testorders.php"` Hierin is het mogelijk om achteraf te zien wat je besteld hebt, maar dit is nog niet volledig functioneel.
 8. 
