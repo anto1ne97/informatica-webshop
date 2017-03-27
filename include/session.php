@@ -1,6 +1,8 @@
 <?php
 // Starts the session
-session_start();
+if(!isset($_SESSION)) {
+	session_start();
+}
 
 // Checks if the user is logged in
 if (!isset($_SESSION['email']) || $_SESSION['email'] == "") {
