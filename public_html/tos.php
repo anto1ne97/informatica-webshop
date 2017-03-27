@@ -5,8 +5,6 @@ $title = "Gebruikersvoorwaarden";
 include_once '../themes/header.php';
 ?>
 
-<audio autoplay><source src="../audio/Thomas the Dank Engine.mp3" type="audio/mpeg"></audio>
-
 <div id="header-featured">
 	<div id="banner">
 		<h2>Amanda &amp; Co. Pannenkoeken</h2>
