@@ -331,7 +331,7 @@ nav {
 /**********//* Banner *//**********/
 	
 #header-featured {
-	padding: 10em 0;
+	padding: 5em 0 10em;
 	background-image: url(../images/background.jpg);
 	background-position: center;
 	background-size: cover;
