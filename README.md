@@ -14,6 +14,7 @@
 	Components:		jQuery,   
 	Software:		Sublime Text, XAMPP
 
+---
 
 #Handleiding 'Amanda & Co. Pannenkoeken' website
 
