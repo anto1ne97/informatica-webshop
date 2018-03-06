@@ -1,6 +1,7 @@
 <?php
 echo "<table style='border: solid 1px black;'>";
 echo "<tr>
+		<th>Productnummer</th>
 		<th>Productweergave</th>
 		<th>Prijs</th>
 	  </tr>";
@@ -24,7 +25,7 @@ include '../include/db_conn_website.php';
 
 if (isset($_POST['order'])) {
 
-	$group3 = $_POST['group3'];
+	$group3 = !empty($_POST['group3']);
 	$group1 = $_POST['group1'];
 	$group2 = $_POST['group2'];
 /*	foreach($_POST['group4'] as $group4) {
@@ -35,7 +36,7 @@ if (isset($_POST['order'])) {
 
 try {
 	// create table based on user choices
-	$stmt = $conn->prepare("SELECT Productweergave, Prijs FROM producten WHERE Productnummer = :group3 OR Productnummer = :group1 OR Productnummer = :group2 OR Productnummer = :group4 OR Productnummer = :group5 OR Productnummer = :group6");
+	$stmt = $conn->prepare("SELECT Productnummer, Productweergave, Prijs FROM producten WHERE Productnummer = :group3 OR Productnummer = :group1 OR Productnummer = :group2 OR Productnummer = :group4 OR Productnummer = :group5 OR Productnummer = :group6");
 	$stmt->bindParam(':group3', $group3);
 	$stmt->bindParam(':group1', $group1);
 	$stmt->bindParam(':group2', $group2);
